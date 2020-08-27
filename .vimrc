@@ -40,15 +40,3 @@ nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
-
-"set statusline=
-"set statusline+=%#CursorColumn#
-"set statusline+=\ %f
-"set statusline+=%m
-"set statusline+=%=
-"set statusline+=%#CursorColumn#
-"set statusline+=\ %y
-"set statusline+=\ %{&fileencoding?&fileencoding:&encoding}
-"set statusline+=\[%{&fileformat}\]
-"set statusline+=\ %p%%
-"set statusline+=\ %l:%c

@@ -35,8 +35,11 @@ let g:netrw_browse_split = 4
 let g:netrw_winsize = 25
 set splitbelow
 set splitright
+set ttimeoutlen=30
 
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
+let g:go_def_mode='gopls'
+let g:go_info_mode='gopls'
